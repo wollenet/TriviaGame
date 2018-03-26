@@ -1,66 +1,66 @@
+html,
 body {
-	background-color: lightblue;
+  height: 100%;
 }
 
-.grid {
-	width: 600px;
-	height: 500px;
-	margin: 0 auto;
-	background-color: #fff;
-	padding: 10px 50px 50px 50px;
-	border-radius: 50px;
-	border: 2px solid #cdcdcd;
-	box-shadow: 10px 15px 5px #cbcbcb;
+body {
+  text-align: center;
+  background-image: url("../images/tacky.jpg");
 }
 
-.grid h1 {
-	font-family: sans-serif;
-	background-color: #57636e;
-	font-size: 60px;
-	text-align: center;
-	color: #fff;
-	padding: 2px 0px;
-	border-radius: 50px;
+#wrapper {
+  width: 960px;
+  height: 95%;
+  box-sizing: border-box;
+  margin: 2.5% auto;
+  background-color: #fff17a;
 }
 
-.gird #question {
-	font-family: sans-serif;
-	font-size: 30px;
-	color: #5a6772;
+#sub-wrapper {
+  position: relative;
+  top: 15%;
 }
 
-.buttons {
-	margin-top: 30px;
+button {
+  display: block;
+  width: 50%;
+  height: 20%;
+  margin: 0 auto;
+  font-size: 42px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
 }
 
-#btn0, #btn1, #btn2, #btn3 {
-	background-color: #778897;
-	width: 250px;
-	font-size: 20px;
-	color: #fff;
-	border: 1px solid #1d3c6a;
-	border-radius: 50px;
-	margin: 10px 40px 10px 0px;
-	padding: 10px 10px;
+img {
+  height: 200px;
 }
 
-#score {
-	color: #5a6772;
-	text-align: center;
-	font-size: 30px;
+h1 {
+  padding-top: 2.5%;
+  font-family: Geo, sans-serif;
+  font-size: 6.5em;
+  font-weight: bold;
+  color: blue;
 }
 
-#progress {
-	color: #2b2b2b;
-	font-size: 18px;
-	
+h2 {
+  margin-bottom: 25px;
+  font-size: 35px;
 }
 
-#btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover {
-	cursor: pointer;
-	background-color: #57636e;
+h3 {
+  margin-bottom: 10px;
+  font-size: 25px;
 }
 
-#btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus {
-	outline:;
+#start {
+  margin-top: 10%;
+  background: pink;
+  border: 2px solid blue;
+}
+
+button:hover {
+  background: pink;
+  border: 2px solid blue;
 }
